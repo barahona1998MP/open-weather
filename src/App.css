@@ -1,0 +1,79 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    /* background-color: rgba(10, 91, 96, 0.7); */
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(32, 230, 252, 0.7);
+}
+
+.card__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.card__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__temperature {
+    font-size: 40px;
+}
+
+.card__description {
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.card__item {
+    font-size: 15px;
+    color: #fffa;
+}
+
+.card__span {
+    color: #000a;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.card__subtitle {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card__btn {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
